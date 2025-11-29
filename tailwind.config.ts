@@ -1,6 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,12 +7,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        // Menambahkan 'inter' agar dapat digunakan sebagai class 'font-inter'
+        inter: ['Inter', 'sans-serif'], 
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // Definisi warna kustom agar mudah digunakan: 'bg-primary-blue'
+        'primary-blue': '#293a84',
       },
     },
   },
   plugins: [],
-};
-export default config;
+}
