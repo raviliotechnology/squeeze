@@ -149,7 +149,7 @@ export default function HomePage() {
           <FeaturesCard
             icon={<KanbanSquare />}
             title='Project Management Lengkap'
-            description='Semua status proyek: booking, produksi, editing, hingga selesai. Jelas dan transparan.'
+            description='Semua status proyek: booking, foto, editing, hingga selesai. Jelas dan transparan.'
           />
 
           {/* Feature 6 (Visual filler/CTA within grid) */}
