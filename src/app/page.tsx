@@ -6,6 +6,7 @@ import WhyRavilioSection from './components/WhyRavilioSection';
 import Logo from "@/assets/Logo.svg";
 import Image from 'next/image';
 import { waUrl } from '@/lib/whatsapp';
+import BeforeAfterSection from './components/BeforeAfterSection';
 
 export default function HomePage() {
   return (
@@ -163,6 +164,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <BeforeAfterSection />
 
       <CTA />
 

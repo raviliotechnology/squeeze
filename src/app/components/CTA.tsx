@@ -58,7 +58,8 @@ function CTA() {
 
                     <div className="text-center mb-8">
                         <h2 className="text-4xl font-semibold tracking-tight text-slate-900 mb-2">Join the waitlist</h2>
-                        <p className="text-slate-500">Tinggalkan nomor WhatsApp kamu dan jadilah yang pertama tau tentang ravilio.</p>
+                        <p className="text-slate-500 my-4">Saat ini Ravilio lagi kami poles biar nanti bisa bantuin semua kerumitanmu dengan cara yang lebih simpel</p>
+                        <p className="text-black">Tinggalkan nomor WhatsApp kamu untuk mendapatkan update terbaru dan akses awal saat platform ini siap diluncurkan.</p>
                     </div>
 
                     {status.type === "error" ? (
